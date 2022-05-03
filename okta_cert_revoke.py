@@ -11,7 +11,7 @@ import subprocess
 import json
 
 SERVER = 'https://DOMAIN.okta.com'  # <----- Put your Okta tenant domain here
-ORG_API_TOKEN = 'SSWS APIKEY_HERE'  # <----- Put your Admin API Key here
+ORG_API_TOKEN = 'SSWS APIKEY_HERE'  # <----- Put your Admin API Key here !!! DO NOT DELETE SSWS !!!
 MAC_UDID = 'MAC_UDID_HERE'          # <----- Put your MacID here
 
 def get_and_revoke_certs():
